@@ -12,3 +12,23 @@ CREATE TABLE animals (
 /* Add column species of type string */
 ALTER TABLE animals
 ADD COLUMN species VARCHAR(50);
+
+
+CREATE TABLE owners (
+	id BIGSERIAL NOT NULL PRIMARY KEY,
+	full_name VARCHAR(50),
+	age INT,
+);
+
+CREATE TABLE species (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(50),
+);
+
+-- remove column species
+ALTER TABLE animals
+DROP COLUMN species,
+ALTER TABLE animals
+ADD species_id INT REFERENCES species(id)
+ALTER TABLE animals
+ADD owner_id INT REFERENCES owners(id);
