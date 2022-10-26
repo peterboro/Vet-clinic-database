@@ -99,7 +99,7 @@ WHERE A.escape_attempts = 0
 AND O.full_name = 'Dean Winchester';
 
 
---Who owns the most animals?
+--Who owns the most animals?Sol
 SELECT COUNT(*) as count, full_name
 FROM animals as A
 JOIN owners O ON A.owner_id = O.id
