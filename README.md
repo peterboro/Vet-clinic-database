@@ -1,6 +1,8 @@
 # Vet Clinic Database
 
-> In this project, I used a relational database and PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it.
+> In this project, I used a relational database and PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. Below is the schema diagram for the database.
+
+<img src="./Screenshot 2022-11-01 183334.png" width="900" height="500" />
 
 
 ## Getting Started
@@ -19,12 +21,17 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - GitHub: [@peterboro](https://github.com/peterboro)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-boro-njuguna/)
 
+👤 **Peter Boro**
+
+- GitHub: [@TracyMuso](https://github.com/TracyMuso)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tracy-muso/)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](github.com/peterboro/Vet-clinic-database/issues/).
 
 ## Show your support
 
